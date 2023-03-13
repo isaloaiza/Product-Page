@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+a{
+    font-size: 17px;
+    text-decoration: none;
+    color: white
+    
+}
+.logo{
+    height: 70px;
+    width: 150px;
+}
+
+ul{
+    list-style: none;
+}
+.activo{
+    color:#0307fcb6;
+    text-decoration: underlink;
+    font-weight: bold;
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+    color: #fff;
+    background-color: #1e172f;
+    height: 100px;
+
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-links li{
+    margin: 0 30px;
+}
+
+/*header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/otoño.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    display: flex;
+    justify-content: flex-end;
+
+}*/
+.ctn{
+    padding:  8px 15px;
+    background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
+    color: white;
+}
+header{
+    width: 100%;
+}
+
+.contenido{
+    background: #2e2550;
+    width: 50%;
+    height: 600px;
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: #fff;
+    margin-top: 180px;
+    margin-left: 130px;
+
+}
+
+.header-content h2{
+    font-size: 5vmin;
+}
+
+.header-content p{
+    font-size: 15px;
+    width: 470px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.todo2{
+    display: flex;
+}
+.padre2{
+    background-image: url(../images/otoño.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 600px;
+    
+}    
+.cosa img{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 100px;
+    width: 200px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+
+.ctn1{
+    padding:  8px 15px;
+    background: #fff;
+    color: #FF3CAC;
+}
+
+.ctn2{
+    padding:  8px 15px;
+    border: 1.5px solid #fff;
+}
+
+.section{
+    background: #f1f2f7;
+    height: 450px;
+}
+
+.pri{
+    color: #f43999;
+    text-align: center;
+    font-size: 50px;
+}
+.imgqq img{
+    height: 300px;
+    width: 450px;
+}
+
+.nose{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.nose1{
+    width: 350px;
+}
+
+.nose1 h1{
+    color: #f43999;
+
+}
+.nose1 h4{
+    color: #f43999;
+}
+
+
+.defa{
+    background-color: #1e172f;
+    width: 100%;
+    height: 100vh;
+}
+.princil{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.comova h1{
+    color:#fff;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.nome{
+    width: 600px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.part1, .part2, .PART3{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 540px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.pdr{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #1E172F;
+    margin-bottom: 20px;
+}
+.padrastro{
+    background-color: #1E172F;
+}
+.valor{
+
+   font-size: 20px;
+   color: black;
+   margin-bottom: 20px;
+}
+.lite{
+    color: #F43195;
+    font-size: 20px;
+    
+}
+
+.on{
+    color:#1E172F
+}
+
+.clase{
+    font-size: 17px ;
+    margin-right: 157px;
+    line-height: 1.6em;
+}
+.nombreNose{
+    width: 300px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.fast{
+    width: 340px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.par1{
+    width: 250px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bto1{
+  background-color: #F43195;  
+  width: 100px;
+  height: 40px;
+  color: #fff;
+ border:rgb(212, 11, 78);
+}
+
+.boton{
+    height: 100px;
+   background-color: #F5F5F5;
+   padding: 10px;
+   margin-top: 20px;
+}
+.bto2{
+    background-color: #1E172F;
+    color: #fff;
+    width: 100px;
+  height: 40px;
+}
+.vl{
+    padding: 15px;
+    height: 50px;
+    background-color: #F5F5F5; 
+}
+.im1{
+    width: 200px;
+    height: 50px;
+}
+
+.ft1{
+    display: flex;
+    padding-top: 20px;
+    justify-content: flex-start;
+    width: 400px;
+}
+
+.ft2{
+    display: flex;
+    justify-content: flex-end;
+
+   margin-top:10px;
+}
+.images1{
+ display: flex;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background: #f1f2f7;
+    margin-top: 105px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span{
+    color:rgb(212, 11, 78);
+}
+
+@media (max-width: 1200px) {
+    .footer {
+      margin-top: 130px;
+    }
+  }
+
+
+
+@media (max-width: 992px) {
+    .header-content {
+        margin-left: 60px;
+    }
+    .header-content p{
+        width: 320px;
+    }
+    .pdr{
+        gap: 20px;
+    }
+    .part1, .part2, .PART3{
+        width: 300px;
+    }
+    .nombreNose{
+         margin-left: 90px;
+    }
+    .fast{
+        margin-left: -20px;
+    }
+    .cosa img{
+ border-radius: 20px;
+    }
+
+    .footer {
+        margin-top: 190px;
+    }
+
+}
+
+
+  
+
+@media (max-width: 768px) {
+   
+    .defa{
+        height: 2000px;
+    }
+    
+    
+    .pdr{
+        display: block; 
+        margin-left: 250px;
+    }
+    .footer {
+        margin-top: 517px;
+    }
+
+
+}
+
+
+
+@media (max-width: 600px) {
+    .pdr{
+        display: block;
+        margin-left: 150px;
+    }
+
+
+    body{
+        width: 105%;
+    }
+    .navbar{
+       display: block;
+       height: 150px;
+       width: 105%;
+    }
+    .ctn{
+        margin-left: -190px;
+    }
+    .cosa img{
+        margin-top: 200px;
+        position: absolute;
+        margin-left: 50px;
+        width: 150px;
+        height: 350px;
+    }
+    .nav-links li{
+        margin: 0 25px;
+    }
+    .header-content {
+        width: 320px;
+        margin-left: 8px;
+    }
+    .imgqq img{
+        height: 200px;
+        width: 350px;
+    }
+    .defa{
+        height: 2000px;
+    }
+
+    .footer {
+        margin-top: -10px;
+    }
+    
+
+    
+
+}
+
+
+@media (max-width: 480px) {
+    body{
+        width: 110%;
+    }
+
+    .navbar{
+        width: 135%;
+    }
+
+    a{
+    font-size: 12px;
+    }
+
+    .imgqq img{
+        height: 100px;
+        width: 200px;
+    }
+    .header-content p{
+        font-size: 12px;
+        width: 250px;
+    }
+    .nome{
+        width: 400px;
+    }
+
+    .pdr{
+        display: block; 
+        margin-left: 100px;
+    }
+
+}
